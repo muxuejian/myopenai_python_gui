@@ -15,7 +15,8 @@ class Gui_frame:
         self.data_Text = None
 
     #发送openai请求
-    def openai_req(self):  
+    def openai_req(self):
+        #key已经删除"使用需要换成别的key"
         openai.api_key = "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"
         Entry_text =  self.data_Entry.get()
         response = openai.ChatCompletion.create(

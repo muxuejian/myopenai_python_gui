@@ -155,6 +155,5 @@ async def main():
     await asyncio.gather(producer_task, consumer_task1, consumer_task2, consumer_task3)
 
 
-
 if __name__ == '__main__':
     asyncio.run(main())
